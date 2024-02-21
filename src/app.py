@@ -15,7 +15,7 @@ aed_latlons_antw_prov = aed_latlons[aed_latlons.province == 'Antwerpen']
 aed_loc_subset_sub = aed_loc_subset[['postal_code','Lat', 'Lon']]
 
 vec_dict = {'AED': [aed_locs_antwp,'orange'], 'MUG': [mug_latlons,'purple'], 'AMB': [amb_locs,'green'], 'PIT': [pit_latlons,'red']}
-df_aed_leuven = pd.read_csv('aed_leuven_wt.csv')
+
 
 mug_dt = pd.read_csv(r"mug_dt.csv")
 amb_dt = pd.read_csv(r"amb_dt.csv")
