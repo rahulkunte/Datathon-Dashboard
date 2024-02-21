@@ -8,3 +8,5 @@ numpy==1.21.2
 dash-bootstrap-components==1.2.0
 flexpolyline==0.1.0
 shapely==2.0.0
+gunicorn 
+dash-tools
